@@ -5,3 +5,22 @@ To check the django version
 To create the project
     django-admin startproject app .
 
+=====================================================
+Steps:
+1. Create requirements.txt
+2. Create Docker file
+3. Create .dockerignore
+3. create docker compose.yml
+4, create .gitignore
+5. setup linting tool inside the project as above are outside the project. we use flake8 and do this inside .flake8
+6. for git hub actions user docker hub authentication
+    a. setup access token
+7. goto github and insdie the project goto settings
+    a. go to secrets and use docker hub user and token for authentication
+8. Setup github action after creating the app using django-admin startproject app .
+    a.create a config file inside where we have docker files .github/workflows/checks.yml
+    b. Set trigger
+    c. Add steps to running testing and linting
+
+=====================================================
+
