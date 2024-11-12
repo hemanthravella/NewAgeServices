@@ -1,0 +1,7 @@
+To install django in venv
+    python -m pip install "Django>=3.2.4,<3.3"
+To check the django version
+    python -m django --version
+To create the project
+    django-admin startproject app .
+
