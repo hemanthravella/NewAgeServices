@@ -1,3 +1,9 @@
+Rules:
+1. Always raise pull requests before merging any changes to the branch other than yours
+2. All the changes should be staged in staging branch before promoting to main.
+3. All the contribution should be merged to versioned(Ex:v1.01) branches after review of the PR.
+
+===================================================
 To install django in venv
     python -m pip install "Django>=3.2.4,<3.3"
 To check the django version
