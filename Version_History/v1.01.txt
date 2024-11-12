@@ -2,3 +2,14 @@ Contributors:
 Hemanth Ravella
 Lakshman Kalagara
 Chanakya Maddukuri
+====================================================================================
+Development tasks:
+
+------------------------------------------------------------------------------------
+1.Hemanth:
+    Create custom command wait_for_db before django tries to establish connection with db
+Tasks Performed:
+
+------------------------------------------------------------------------------------
+
+=====================================================================================
